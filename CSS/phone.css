@@ -1,0 +1,85 @@
+/* 1. navigation section */
+#navbar{
+    flex-direction: column;
+    position: relative;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 10px 10px;
+}
+
+/* home section */
+
+#home{
+height: 300px;
+padding: 3px 28px;
+}
+
+#home p{
+font-size: 13px;
+}
+
+#home::before{
+height: 442px;
+}
+
+/* 2. services section */
+
+#services{
+    flex-direction: column;
+}
+
+/* 3. Sponsors section */
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 17px;
+    padding: 2px 5px;
+    /* flex-wrap: wrap; */
+}
+
+.client-item #Item1{
+    height: 59px;
+    width: 51px;
+}
+.client-item #Item2{
+    height: 61px;
+    width: 125px;
+}
+.client-item #Item3{
+    height: 57px;
+    width: 135px;
+}
+.client-item #Item4{
+    height: 70px;
+    width: 75px;
+}
+.client-item #Item5{
+    height: 70px;
+    width: 62px;
+}
+
+.client-item{
+    padding: 23px;
+}
+
+/* utility classes */
+.h-primary{
+    font-size: 26px;
+}
+
+.btn{
+    font-size: 10px;
+    padding: 5px 6px;
+}
+
+/* 4. contact us section */
+
+#contact-box form{
+    width: 80%;
+}
+
+/* 5. footer */
